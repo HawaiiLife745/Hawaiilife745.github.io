@@ -1,0 +1,64 @@
+.selection_layout
+{
+    display: none;
+}
+
+#sl {white-space: nowrap;}
+
+table.megaPlllayout {
+    width: 100%;
+}
+
+td.itemUnsel {
+    cursor: pointer;
+    text-align: center;
+    -moz-user-select: none;-webkit-user-select: none;-ms-user-select:none;user-select:none;-o-user-select:none;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    border-spacing: 100px;
+
+}
+
+td.itemSel {
+    cursor: pointer;
+    text-align: center;
+    -moz-user-select: none;-webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.megaPllgrouptdSel {
+    cursor: pointer;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.megaPllgrouptdUnsel {
+    cursor: pointer;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+td {border: 1px solid #000;}
+
+.abutton {
+    float: right;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
