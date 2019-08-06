@@ -1,0 +1,23 @@
+body.niceBody {
+    background-color: #f5f5f5;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+img {
+    pointer-events: none;
+}
+
+a, a:not([href]), a:visited {
+    cursor: pointer;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+a:hover {
+    color: grey;
+}
+
+.notObviousButton {
+    text-decoration: underline;
+}
